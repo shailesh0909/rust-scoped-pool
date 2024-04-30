@@ -1,7 +1,7 @@
 [package]
 
 name = "scoped-pool"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 repository = "https://github.com/reem/rust-scoped-pool.git"
 description = "A flexible thread pool providing scoped threads."
@@ -10,7 +10,7 @@ license = "MIT"
 
 [dependencies]
 variance = "0.1"
-crossbeam = "0.2"
+crossbeam = "0.4.1"
 scopeguard = "0.1"
 
 [dev-dependencies]
